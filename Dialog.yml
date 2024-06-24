@@ -5,8 +5,4 @@
   tasks:
 
   - name: Execute Script
-    ansible.builtin.shell:
-    args:
-      chdir: /home/terminal/Dialog.sh
-      executable: Dialog.sh
-  
+    ansible.builtin.shell: Dialog.sh
