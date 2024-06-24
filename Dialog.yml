@@ -5,5 +5,5 @@
   tasks:
 
   - name: Start Script
-    script: /home/test/Dialog.sh
+    script: /home/terminal/Dialog.sh
     delegate_to: localhost
