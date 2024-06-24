@@ -5,5 +5,4 @@
   tasks:
 
   - name: Start Script
-    ansible.builtin.command: 
-    cmd: /home/terminal/Dialog.sh
+    ansible.builtin.command: /home/terminal/Dialog.sh
