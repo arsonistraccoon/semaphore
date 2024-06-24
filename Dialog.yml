@@ -7,5 +7,6 @@
   - name: Execute Script
     ansible.builtin.shell:
     args:
-      executable: /home/terminal/Dialog.sh
+      command: chdir=/home/terminal/Dialog.sh
+      executable: Dialog.sh
   
