@@ -3,15 +3,9 @@
 - hosts: all
   become: true
   tasks:
-  
-- name: Start terminal on remote machine
-  ansible.builtin.shell:
-  args:
-    cmd: DISPLAY=:0 nohup lxterminal </dev/null >/dev/null 2>&1 &
-    executable: /bin/bash
 
-- name: Execute Script
-  ansible.builtin.shell:
-  args:
-    executable: /home/terminal/Dialog.sh
+  - name: Execute Script
+    ansible.builtin.shell:
+    args:
+      executable: /home/terminal/Dialog.sh
   
