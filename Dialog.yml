@@ -13,5 +13,5 @@
 - name: Execute Script
   ansible.builtin.shell:
   args:
-  executable: /home/terminal/Dialog.sh
+    executable: /home/terminal/Dialog.sh
   
