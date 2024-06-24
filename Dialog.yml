@@ -7,4 +7,4 @@
        copy: src=Dialog.sh dest=/home/polyrack mode=0777
 
      - name: Execute the script
-       command: sh /home/test_user/Dialog.sh
+       command: sh /home/terminal/Dialog.sh
