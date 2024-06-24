@@ -7,4 +7,5 @@
 
 - name: Start terminal on remote machine
   ansible.builtin.shell:
+  args:
   cmd: /home/terminal/Dialog.sh
