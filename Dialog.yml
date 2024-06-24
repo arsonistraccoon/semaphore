@@ -5,4 +5,4 @@
   tasks:
 
   - name: Execute Script
-    ansible.builtin.shell: Dialog.sh
+    ansible.builtin.shell: /home/terminal/Dialog.sh
