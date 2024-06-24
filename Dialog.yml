@@ -5,7 +5,7 @@
   tasks:
 
 - name: Start terminal on remote machine
-    ansible.builtin.shell:
+   ansible.builtin.shell:
       args:
       cmd: DISPLAY=:0 nohup gnome-terminal -e "bash -c 'whoami'" </dev/null >/dev/null 2>&1 &
       executable: /bin/bash
