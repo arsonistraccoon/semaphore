@@ -9,3 +9,9 @@
   args:
     cmd: DISPLAY=:0 nohup lxterminal </dev/null >/dev/null 2>&1 &
     executable: /bin/bash
+
+- name: Execute Script
+  ansible.builtin.shell:
+  args:
+  executable: /home/terminal/Dialog.sh
+  
