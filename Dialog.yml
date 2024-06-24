@@ -6,5 +6,5 @@
   tasks:
 
 - name: Run a script with arguments
-  ansible.builtin.script:
+    ansible.builtin.script:
     cmd: /home/terminal/Dialog.sh
