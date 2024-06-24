@@ -1,0 +1,9 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+
+  - name: Start Script
+    script: /home/test/Dialog.sh
+    delegate_to: localhost
