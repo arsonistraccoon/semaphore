@@ -4,4 +4,4 @@
   become: true
   tasks:
      - name: Execute the script
-       command: /home/terminal/Dialog.sh
+       command: bash /home/terminal/Dialog.sh
