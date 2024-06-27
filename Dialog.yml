@@ -5,4 +5,4 @@
   gather_facts: no
   tasks:
     - name: script ausführen
-      command: sh /home/terminal/Dialog.sh
+      ansible.builtin.sh: "date"
