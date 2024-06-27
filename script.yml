@@ -7,4 +7,4 @@
     - name: Environment Variable
       ansible.builtin.shell: "export DISPLAY=:0"
     - name: script ausführen
-      ansible.builtin.shell: "/home/terminal/Dialog.sh"
+      ansible.builtin.script: "/home/semaphore/playbooks/script.sh"
