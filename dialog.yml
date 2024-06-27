@@ -1,0 +1,9 @@
+---
+
+- hosts: all
+  become: true
+  gather_facts: no
+  tasks:
+
+  - name: transfer script and use it
+    ansible.builtin.script: /home/polyrack/dialog.sh
