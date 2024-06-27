@@ -2,7 +2,6 @@
 
 - hosts: all
   become: true
-  become-method: sudo
   gather_facts: no
   tasks:
     - name: script ausführen
