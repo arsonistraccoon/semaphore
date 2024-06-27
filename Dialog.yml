@@ -1,7 +1,8 @@
 ---
-- hosts: all
-- become: true
-- gather_facts: no
 
-  - name: script ausführen
-  - command: sh /home/terminal/Diaslog.sh
+- hosts: all
+  become: true
+  gather_facts: no
+  tasks:
+    - name: script ausführen
+      command: sh /home/terminal/Diaslog.sh
