@@ -1,0 +1,6 @@
+---
+-hosts: all
+-gather_facts: no
+
+- name: reboot the servers
+  command: /sbin/reboot -t now
