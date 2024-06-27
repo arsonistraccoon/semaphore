@@ -5,4 +5,4 @@
   gather_facts: no
   tasks:
     - name: script ausführen
-      ansible.builtin.shell: "pwd"
+      ansible.builtin.script: "/home/semaphore/playbooks/script.sh"
